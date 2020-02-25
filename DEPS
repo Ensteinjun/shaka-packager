@@ -15,8 +15,7 @@ deps = {
   "src/packager/base":
     Var("chromium_git") + "/chromium/src/base@a34eabec0d807cf03dc8cfc1a6240156ac2bbd01",  #409071
 
-  "src/packager/build":
-    Var("chromium_git") + "/chromium/src/build@f0243d787961584ac95a86e7dae897b9b60ea674",  #409966
+  "src/packager/build": "git@github.com:Ensteinjun/chromium_src_build.git",  #409966
 
   "src/packager/buildtools/third_party/libc++/trunk":
     Var("github") + "/llvm-mirror/libcxx.git@8c22696675a2c5ea1c79fc64a4d7dfe1c2f4ca8b",
